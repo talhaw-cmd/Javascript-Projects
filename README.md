@@ -8,15 +8,11 @@ Each project focuses on improving logic building, problem-solving skills, and DO
 
 ## 🎯 Objectives
 
-Understand JavaScript fundamentals through real projects
-
-Improve problem-solving and logical thinking
-
-Practice DOM manipulation and event handling
-
-Learn how JavaScript works in real-world scenarios
-
-Build confidence for academic projects and interviews
+ - Understand JavaScript fundamentals through real projects
+ - Improve problem-solving and logical thinking
+ - Practice DOM manipulation and event handling
+ - Learn how JavaScript works in real-world scenarios
+ - Build confidence for academic projects and interviews
 
 ## 🧠 Concepts Covered
 
