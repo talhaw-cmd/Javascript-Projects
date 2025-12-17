@@ -1,0 +1,55 @@
+        body{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 97vh;
+            font-size: 4rem;
+            font-family: Arial, Helvetica, sans-serif;
+            color: white;
+            background-image: linear-gradient(70deg, rgb(23, 22, 22), rgb(21, 8, 33));
+        }
+        #clock-container{
+            background-color: rgba(255, 255, 255, 0.08);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 0rem;
+            padding: 1rem 2rem;
+            border-radius: 0.5rem;
+        }
+        #time-display{
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+            font-weight: 900;
+        }
+        #date-display{
+            font-size: 1.5rem;
+            display: flex;
+            gap: 0.5rem;
+            font-weight: 400;
+        }
+        .glow-circle{
+            position: absolute;
+            top: 10rem;
+            left: 20rem;
+            z-index: -1;
+            height: 10rem;
+            width: 10rem;
+            border-radius: 50%;
+            background-image: linear-gradient(blue, blueviolet);
+            filter: blur(70px);
+        }
+        .glow-circle-alt{
+            position: absolute;
+            bottom: 10rem;
+            right: 20rem;
+            z-index: -1;
+            height: 10rem;
+            width: 10rem;
+            border-radius: 50%;
+            background-image: linear-gradient(yellow, orange);
+            filter: blur(70px);
+        }
