@@ -25,4 +25,3 @@ This project allows users to add daily expenses with category, amount, and date,
 - Google Fonts (Poppins)
 
 ---
-
