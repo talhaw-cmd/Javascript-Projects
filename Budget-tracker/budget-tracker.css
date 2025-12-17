@@ -1,0 +1,103 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+        * {
+            margin: 0;
+            font-family: "Poppins", sans-serif;
+        }
+
+        .input-box {
+            margin-top: 2rem;
+            padding: 0 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: .5rem;
+        }
+
+        .input-field {
+            padding: 1rem 1.5rem;
+            background: #f0f0f0;
+            border-radius: 1rem;
+            border: none;
+            outline: none;
+            color: #313131;
+        }
+
+        .submit-btn {
+            border: none;
+            background-color: #313131;
+            padding: 1rem 2rem;
+            border-radius: 1rem;
+            color: #fff;
+            cursor: pointer;
+            transition: .3s;
+        }
+
+        .submit-btn:hover {
+            background: #f0f0f0;
+            color: #313131;
+        }
+
+        input::placeholder {
+            color: #acacac;
+        }
+
+        .expense-list {
+            margin-top: 1rem;
+            padding: 2rem;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .expense-row {
+            width: 100%;
+            padding: 1rem;
+            display: flex;
+            gap: .5rem;
+            align-items: center;
+            border-bottom: 1px solid #bdbdbd;
+        }
+
+        .expense-details {
+            display: flex;
+            flex-direction: column;
+            width: 8rem;
+        }
+
+        .expense-name {
+            font-weight: 800;
+            font-size: 1.2rem;
+            color: #1e1e1e;
+            word-wrap: break-word;
+        }
+
+        .expense-date {
+            font-size: .9rem;
+            color: #a3a3a3;
+        }
+
+        .expense-price {
+            width: 10rem;
+            text-align: center;
+        }
+
+        .currency {
+            font-size: .9rem;
+            color: #d6d6d6;
+        }
+
+        .amount {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #1e1e1e;
+        }
+
+        .delete-btn {
+            font-size: 1rem;
+            cursor: pointer;
+            color: #1e1e1e;
+        }
+
+        .delete-btn:hover {
+            opacity: 0.8;
+        }
